@@ -1,5 +1,5 @@
-@import url("../webfonts/Antipasto_ExtraLightTrial/stylesheet.css");
-/* CSS Document */s
+/* CSS Document */
+
 body {
  	}
 .blanco{background-color:#FFF;}
@@ -10,7 +10,10 @@ body {
 }
 #principal {
 	width: 960px;
+	height:1200px;
     margin:auto 190px;
+	background-image:url(../imagenes/images/fondovinos.png);
+	s
 	
 }
 
@@ -38,7 +41,7 @@ ul {
 
 li {
 	float:left;
-	margin-left:60px;
+	margin-left:50px;
 	padding:10px;
 	font:titulos;
 	
@@ -49,21 +52,14 @@ li {
 	color: #FFF;
 }
 
+#footer{
+	background-color:#1e1814;
+	height:180px;
+	width:900px;
+	padding:30px;
 
-h1{
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-h2{
-   font-family:BODEGA;
-   font-size:18px;
-   font-weight:bold;
-   color:#F99;
-   text-transform:uppercase;
-   
-}
-.contenedor-titulo{
+	}
+	.contenedor-titulo{
 	margin-right::70px;
 	border-left: 10px  solid #300;
 	padding-left:10px;
@@ -75,12 +71,3 @@ h2{
 	margin-top:20px;
 
 }
-#footer{
-	background-color:#1e1814;
-	height:180px;
-	width:900px;
-	padding:30px;
-
-	}
-	
-		
